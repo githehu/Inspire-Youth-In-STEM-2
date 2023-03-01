@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 myFavouriteFruits =("banana,""grapes","guavas","oranges","mangoes""lemons")
-for fruit in "myFavouritefruits" :
+for fruit in myFavouriteFruits
     print(fruit)
 #len number of elements in the list
 friends = ["max","tony","lance","ace"]

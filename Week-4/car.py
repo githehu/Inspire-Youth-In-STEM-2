@@ -15,10 +15,17 @@ class car:
     def get_year(self):
         return self.year
     
+#setters
+    def set_model(self,model):
+        self.model = model
+
+    def set_make(self,make):
+
+    
 #objects
-car_1 = car ("demio","nissan","2018")
-car_2 = car ("hilux","toyota","2020")
-car_3 = car ("premio","range","2022")
+car_1 = car ("demio","nissan",2018)
+car_2 = car ("hilux","toyota",2020)
+car_3 = car ("premio","range",2022)
 
 print(car_1.get_model())
 print(car_1.get_make())

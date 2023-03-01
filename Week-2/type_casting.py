@@ -15,3 +15,7 @@ x = 5.68
 #size of the variable
 print(type(y))
 print(type(x))
+print(len(y))
+
+maths_grade = "a"
+print(type(maths_grade))

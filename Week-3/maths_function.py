@@ -16,3 +16,7 @@ sin_x = math.sin(60)
 print(cos_x)
 print(tan_x)
 print(sin_x)
+
+#assign
+(-b+math.sqrt(math.power(b,2)-4*a*c))/2*a 
+
