@@ -1,0 +1,20 @@
+<!DOCTYPE html
+<HTML>
+<head>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1 id ="text">Javascript Basics</h1>
+    <script>
+        //variabled in java script
+        //number
+        var number = 12;
+
+        //string
+        var my_first_name = "david"
+        var my_second_name = "githehu"
+        document.getElementById("names").innerHTML
+    </script>
+    <button>Click me</button>
+</body>
+</html>

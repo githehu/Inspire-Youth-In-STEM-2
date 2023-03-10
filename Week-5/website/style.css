@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/banner.png);
+    background-image: url(images/JKUAT-Main-Campus-Gate-A.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,29 +18,50 @@
     justify-content: space-between;
     align-items: center;
 }
-nav-img{
+nav img{
     width: 150px;
 }
 .nav-link{
     flex :1;
     text-align: right;
 }
-li.nav-link{
-    color: brown;
-    front-size:30px;
-}
+
 .nav-links ul li{
     list-style: none;
-    display: block;
-    padding:8px 12px ;
+    display: inline-block;
+    padding: 8px 12px;
     position: relative;
     color: rgb(93, 13, 13);
+    font-size: 13px;
 }
 .nav-links ul li a{
     color: beige;
     text-decoration: none;
-    front-size:13;
+    font-size:13;
 }
 #main{
-    color: chartreuse;
+    color: rgb(136, 0, 255);
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    border: 1px solid rgb(177, 101, 101);
+    background: red;
+    transition: 1s;
+}
+.textbox{
+    color: aquamarine;
+    position: centre;
+    text-align: center;
+    front-size:larger;
+    border: 0px;
 }
